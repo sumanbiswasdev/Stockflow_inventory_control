@@ -6,8 +6,8 @@ const Logging = () => {
 
         <div className="relative bg-[#F2F8FF] h-screen">
             <div className="absolute inset-0 flex flex-col justify-center items-center space-y-5">
-                <div className='bg-[#2B7FFF] p-4 rounded-full flex justify-center items-center shadow-md'>
-                    <img className='h-12 w-12' 
+                <div className='bg-[#2B7FFF] p-2 rounded-full flex justify-center items-center shadow-md'>
+                    <img className='h-16 w-16' 
                     src={logo} 
                     alt="" />
                 </div>
