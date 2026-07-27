@@ -64,7 +64,7 @@ const Logging = () => {
                                                
                     </div>
 
-                    <a href="#" className='bg-black text-white w-full text-center p-2 rounded-md'>
+                    <a href="#" className='bg-black text-white w-full text-center p-2 rounded-md mt-5'>
                         <button className='cursor-pointer'>Entrar</button>
                     </a>
 
