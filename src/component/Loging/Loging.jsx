@@ -23,7 +23,7 @@ const Logging = () => {
                 </div>
                 
                 
-                <div className='flex flex-col items-start bg-[#E4F1FF] shadow-xl rounded-xl 
+                <div className='flex flex-col items-start bg-[#E4F1FF] shadow-xl w-xl rounded-xl 
                 p-8 border-[0.1rem] border-gray-300 space-y-5'>
 
                 {/* Entrar no Sistema */}    
