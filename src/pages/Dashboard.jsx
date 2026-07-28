@@ -1,10 +1,10 @@
 
 
-const Dashboard = () => {
+function Dashboard(){
 
     return(
         <div>
-            
+            <h1>Suman Biswas</h1>
         </div>
     )
 }

@@ -1,9 +1,18 @@
-import logo from '../../assets/logo.png'
+import logo from '../assets/logo.png'
 import { CiUser } from "react-icons/ci";
 import { GoLock } from "react-icons/go";
 import { LiaCopyright } from "react-icons/lia";
+import { useNavigate } from 'react-router-dom';
 
-const Logging = () => {
+
+
+function Logging(){
+
+    const navigate = useNavigate()
+
+    function handleLoging(){
+        navigate("/dashboard")
+    }
 
     return(
 
@@ -65,7 +74,7 @@ const Logging = () => {
                     </div>
 
                     <a href="#" className='bg-black text-white w-full text-center p-2 rounded-md mt-5'>
-                        <button className='cursor-pointer'>Entrar</button>
+                        <button onClick={handleLoging} className='cursor-pointer'>Entrar</button>
                     </a>
 
                 </div>
